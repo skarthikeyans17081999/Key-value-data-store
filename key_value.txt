@@ -1,0 +1,16 @@
+import code as K
+K.create("madurai",25)
+K.create("chennai",50,120)
+K.read("madurai")
+'madurai:25'
+K.read("chennai")
+'chennai:50'
+K.read("madurai")
+'chennai:25'
+K.read("chennai")
+K.delete("chennai")
+K.modify("madurai",60)
+K.read("madurai")
+'madurai:60'
+K.delete("madurai")
+K.read("madurai")

@@ -1,0 +1,17 @@
+import code as K
+K.create("anna",25)
+K.create("anna",50)
+K.read("anna")
+K.read("anna")
+'anna:25'
+K.create("an24na",12)
+K.create("an@na",34)
+K.create("an na",56)
+K.create("annauniversity",67)
+K.read("annauniversity")
+K.read("annauniversity")
+'annauniversity:67'
+K.read("anna")
+'anna:25'
+K.delete("anna")
+K.read("sastra")
